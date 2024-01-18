@@ -30,18 +30,20 @@ About Me
 Projects
 {.h1 .text-center}
 
-{{% blocks/feature icon="fas fa-chart-line" title="Project 1: [Project Title]" %}}
+{{% blocks/feature icon="fas fa-chart-line" title="Project 1: [Project Title]" card %}}
 [Project description highlighting key techniques and impact]
+[Image of Project 1]
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-laptop-code" title="Project 2: [Project Title]" %}}
+{{% blocks/feature icon="fas fa-laptop-code" title="Project 2: [Project Title]" card %}}
 [Project description highlighting key techniques and impact]
+[Image of Project 2]
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-database" title="Project 3: [Project Title]" %}}
+{{% blocks/feature icon="fas fa-database" title="Project 3: [Project Title]" card %}}
 [Project description highlighting key techniques and impact]
+[Image of Project 3]
 {{% /blocks/feature %}}
-{{% /blocks/section %}}
 
 {{% blocks/section id="papers" %}}
 Publications
