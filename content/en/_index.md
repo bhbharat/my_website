@@ -17,35 +17,23 @@ Contact <i class="fas fa-envelope ms-2"></i>
 
 {{% blocks/lead color="primary" %}}
 I'm a passionate Data Scientist with expertise in [list your areas of expertise]. I'm driven by a desire to uncover insights from data and leverage them to solve real-world problems.
-{{% /blocks/lead %}}
+{{% /blocks/feature %}}
 
-{{% blocks/section id="about" %}}
-About Me
-{.h1 .text-center}
 
-[Your brief introduction and career highlights]
+{{% blocks/feature icon="fab fa-github" title="Collaboration encouraged!" url="https://github.com/bhbharat/my_website/tree/main/content/en" %}}
+Contribute through [Pull Requests](https://github.com/bhbharat/my_website/tree/main/content/en) on **GitHub**. New contributors are always welcome!
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
+For announcements on the latest features and more.
+{{% /blocks/feature %}}
+
+
 {{% /blocks/section %}}
 
-{{% blocks/section id="projects" %}}
-Projects
-{.h1 .text-center}
 
-{{% blocks/feature icon="fas fa-chart-line" title="Project 1: [Project Title]" card %}}
-[Project description highlighting key techniques and impact]
-[Image of Project 1]
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fas fa-laptop-code" title="Project 2: [Project Title]" card %}}
-[Project description highlighting key techniques and impact]
-[Image of Project 2]
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fas fa-database" title="Project 3: [Project Title]" card %}}
-[Project description highlighting key techniques and impact]
-[Image of Project 3]
-{{% /blocks/feature %}}
-
-{{% blocks/section id="papers" %}}
+{{% blocks/section %}}
 Publications
 {.h1 .text-center}
 
