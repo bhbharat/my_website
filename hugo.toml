@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "Data Science Blog"
 
 # Language settings
 contentDir = "content/en"
@@ -59,15 +59,15 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "Data Science Blog"
+description = "A data science blog website"
 
 [languages.no]
 languageName ="Norsk"
 contentDir = "content/no"
 [languages.no.params]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
+title = "Data Science Blog"
+description = "Data Science Blog"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
@@ -99,7 +99,7 @@ time_format_blog = "2006.01.02"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Docsy Authors"
+copyright = "Authors"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -126,7 +126,7 @@ url_latest_version = "https://example.com"
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/google/docsy-example"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/bhbharat/my_website/tree/main"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -195,7 +195,7 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/google/docsy"
+  url = "https://github.com/bhbharat/my_website/tree/main"
   icon = "fab fa-github"
   desc = "Development takes place here!"
 [[params.links.developer]]
