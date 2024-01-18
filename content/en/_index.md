@@ -5,7 +5,7 @@ title: DataSci Portfolio
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   Explore More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/bhbharat/my_website/tree/main/content/en">
   Codebase <i class="fab fa-github ms-2 "></i>
 </a>
 <p class="lead mt-5">Data-driven insights &mdash; in the cloud!</p>
@@ -29,8 +29,8 @@ Stay tuned for future updates!
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-github" title="Collaboration encouraged!" url="https://github.com/google/docsy-example" %}}
-Contribute through [Pull Requests](https://github.com/google/docsy-example/pulls) on **GitHub**. New contributors are always welcome!
+{{% blocks/feature icon="fab fa-github" title="Collaboration encouraged!" url="https://github.com/bhbharat/my_website/tree/main/content/en" %}}
+Contribute through [Pull Requests](https://github.com/bhbharat/my_website/tree/main/content/en) on **GitHub**. New contributors are always welcome!
 {{% /blocks/feature %}}
 
 
@@ -55,8 +55,8 @@ Get the DataSci Portfolio app!
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="Collaboration encouraged!"
-    url="https://github.com/google/docsy-example" %}}
-Contribute through [Pull Requests](https://github.com/google/docsy-example/pulls)
+    url="https://github.com/bhbharat/my_website/tree/main/content/en" %}}
+Contribute through [Pull Requests](https://github.com/bhbharat/my_website/tree/main/content/en)
 workflow on **GitHub**. New contributors are always welcome!
 {{% /blocks/feature %}}
 
