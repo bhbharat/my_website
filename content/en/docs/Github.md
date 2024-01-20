@@ -1,7 +1,7 @@
 ---
 title: "Github"
 linkTitle: "Git remove large files and amend"
-weight: 100
+weight: 2
 description: >-
      Git remove large files and amend.
 ---

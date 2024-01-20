@@ -1,11 +1,9 @@
 ---
 title: Code Snippets
-weight: 1
+weight: 100
+description: >-
+     Other useful code snippets.
 ---
-
-
-
-
 
 
 ## Configure Jupyter Kernel
@@ -109,32 +107,7 @@ label_point(final['Date'], final['Predictions'].fillna(0), final['Predictions'].
 ```
 
 
-## Pandas Profile
 
-
-```python
-from pandas_profiling import ProfileReport
-def profile(file):
-    prof = ProfileReport(file, title='Pandas Profiling Report', html={'style':{'full_width':True}})
-    return prof.to_widgets()
-    
-```
-
-## View Data in Excel
-
-
-```python
-def view(file):
-    if not os.path.exists('./delete'):
-        os.mkdir('./delete')
-    from datetime import datetime
-    now = datetime.now()
-    name = './delete/File_' + str(now.strftime("%d/%m/%Y %H:%M:%S")).replace(
-        ' ', '_').replace('/', '-').replace(':', '-') + '.xlsx'
-    file.to_excel(name, index=None)
-    os.system("start EXCEL.EXE {}".format(name))
-    
-```
 
 ## Run Jupyter Notebook from other notebook
 
@@ -191,43 +164,7 @@ for p in fig.axes.patches:
 
 ```
 
-## Saving Files in Excel Sheets
 
-
-```python
-import os
-from openpyxl import load_workbook
-def append_df_to_excel(filename, df, sheet_name='Sheet1', startrow=None,truncate_sheet=False, **to_excel_kwargs):
-    if not os.path.isfile(filename):
-        df.to_excel(
-            filename,
-            sheet_name=sheet_name, 
-            startrow=startrow if startrow is not None else 0, 
-            **to_excel_kwargs)
-        return
-    
-    if 'engine' in to_excel_kwargs:
-        to_excel_kwargs.pop('engine')
-
-    writer = pd.ExcelWriter(filename, engine='openpyxl', mode='a')
-    writer.book = load_workbook(filename)
-    if startrow is None and sheet_name in writer.book.sheetnames:
-        startrow = writer.book[sheet_name].max_row
-
-    if truncate_sheet and sheet_name in writer.book.sheetnames:
-        idx = writer.book.sheetnames.index(sheet_name)
-        writer.book.remove(writer.book.worksheets[idx])
-        writer.book.create_sheet(sheet_name, idx)
-    
-    writer.sheets = {ws.title:ws for ws in writer.book.worksheets}
-    if startrow is None:
-        startrow = 0
-    df.to_excel(writer, sheet_name, startrow=startrow, **to_excel_kwargs)
-    writer.save()
-
-append_df_to_excel('Output/Predicted_No_of_Calls.xlsx', final, sheet_name='predictions',startrow=0)
-
-```
 
 ## Add Snippets to the Jupyter Notebook
 

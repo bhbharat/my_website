@@ -6,6 +6,6 @@ weight: 20
 ---
 
 {{% pageinfo %}}
-This is the documentation site.
+This page contains helpful code snippets related to Python and Data science.
 {{% /pageinfo %}}
 

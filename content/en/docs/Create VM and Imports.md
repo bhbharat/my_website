@@ -1,7 +1,9 @@
 ---
 title: Create VM and Imports
 linkTitle: Create VM and Imports
-weight: 20
+weight: 1
+description: >-
+     Create virtual machines and import useful python libraries.
 ---
 
 ## Create virtual environment and install basic packages
