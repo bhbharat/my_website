@@ -1,9 +1,7 @@
 ---
-title: "Create VM and Imports"
-linkTitle: "Create VM and Imports"
-weight: 100
-description: >-
-     Create VM and Imports.
+title: Create VM and Imports
+linkTitle: Create VM and Imports
+weight: 20
 ---
 
 ## Create virtual environment and install basic packages
