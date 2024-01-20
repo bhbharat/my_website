@@ -1,13 +1,14 @@
 ---
-title: DataSci Portfolio
+title: Data Science Blog
 ---
 
-{{< blocks/cover title="Welcome to DataScince Blog!" image_anchor="top" height="full" >}}
+{{< blocks/cover title="Welcome to Data Science Blog!" image_anchor="top" height="full" >}}
+
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   About <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/bhbharat/my_website/tree/main/content/en">
-  Codebase <i class="fab fa-github ms-2 "></i>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="/projects/">
+  Projects <i class="fas fa-database ms-2 "></i>
 </a>
 <p class="lead mt-5">Data-driven insights!</p>
 {{< blocks/link-down color="info" >}}
@@ -15,12 +16,9 @@ title: DataSci Portfolio
 
 
 {{% blocks/lead color="primary" %}}
-DataSci Portfolio provides a unified web UI offering insights into data analytics,
-algorithmic models, and visualization metrics! Discover trends and patterns in your data.
+Unlock the Power of Data: Your Gateway to Data Science, NLP, and Machine Learning Mastery - Explore, Learn, and Excel in the World of Data with Our Insightful Blog.
 
-(Disclaimer: DataSci Portfolio is a fictional project for demonstration purposes. You can use this template to build your own data science portfolio with [Docsy](https://docsy.dev))
 {{% /blocks/lead %}}
-
 
 {{% blocks/section color="dark" type="row" %}}
 {{% blocks/feature icon="fa-lightbulb" title="New analytics models!" %}}
@@ -68,8 +66,3 @@ For announcements on the latest features and more.
 
 {{% /blocks/section %}}
 
-
-{{% blocks/section %}}
-Papers
-{.h1 .text-center}
-{{% /blocks/section %}}

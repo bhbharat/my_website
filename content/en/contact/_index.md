@@ -1,5 +1,5 @@
 ---
-title: Community
+title: Contact
 menu: {main: {weight: 40}}
 ---
 

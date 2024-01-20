@@ -1,7 +1,7 @@
 ---
-title: About Goldydocs
-linkTitle: About
-menu: {main: {weight: 10}}
+title: Projects
+linkTitle: Projects
+menu: {main: {weight: 20}}
 ---
 
 {{% blocks/cover title="About Goldydocs" image_anchor="bottom" height="auto" %}}
