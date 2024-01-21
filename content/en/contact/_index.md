@@ -3,4 +3,16 @@ title: Contact
 menu: {main: {weight: 40}}
 ---
 
-<!--add blocks of content here to add more sections to the community page -->
+#
+#
+#
+
+## Bharat - Data Scientist
+
+**Address:**  
+Bangalore, India
+
+**Email:**  
+[mebharat123@gmail.com](mailto:mebharat123@gmail.com)
+
+Feel free to reach out to me for any inquiries or collaboration opportunities.

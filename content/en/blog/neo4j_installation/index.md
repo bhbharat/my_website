@@ -19,7 +19,6 @@ This blog contains codes and snippets related to Neo4j, Cypher and apoc library.
 [link to lab](https://neo4j.com/labs/) |
 [Video Link](https://www.youtube.com/watch?v=h7mq1mrQIBQ) |
 [Apoc video link](https://www.youtube.com/playlist?list=PL9Hl4pk2FsvXEww23lDX_owoKoqqBQpdq) |
-[Edit page here](https://github.com/bhbharat/bhbharat.github.io/edit/main/pages/mydoc/course-cypher.md)
 
 ## Neo4j
 

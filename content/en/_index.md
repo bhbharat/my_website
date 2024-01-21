@@ -29,11 +29,11 @@ Stay tuned for future updates!
 
 
 {{% blocks/feature icon="fab fa-github" title="Collaboration encouraged!" url="https://github.com/bhbharat/my_website/tree/main/content/en" %}}
-Contribute through [Pull Requests](https://github.com/bhbharat/my_website/tree/main/content/en) on **GitHub**. New contributors are always welcome!
+Contribute through [Pull Requests](https://github.com/bhbharat/my_website/) on **GitHub**. New contributors are always welcome!
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
+{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"  %}}
 For announcements on the latest features and more.
 {{% /blocks/feature %}}
 
@@ -44,24 +44,28 @@ For announcements on the latest features and more.
 {{% blocks/section %}}
 Projects
 {.h1 .text-center}
-{{% /blocks/section %}}
 
+
+{{% /blocks/section %}}
 
 {{% blocks/section type="row" %}}
 
-{{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-Get the DataSci Portfolio app!
+{{% blocks/feature icon="fab fa-python" url=/blog/2022/01/20/neo4j-cypher/ %}}
+{{< imgproc neo4j Fill "450x200" >}}
+{{< /imgproc >}}
+Neo4j and cypher query
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Collaboration encouraged!"
-    url="https://github.com/bhbharat/my_website/tree/main/content/en" %}}
-Contribute through [Pull Requests](https://github.com/bhbharat/my_website/tree/main/content/en)
-workflow on **GitHub**. New contributors are always welcome!
+{{% blocks/feature icon="fab fa-python" url=/blog/2022/01/17/transformers-and-huggingface/ %}}
+{{< imgproc trans Fill "400x200" >}}
+{{< /imgproc >}}
+Transformers and Huggingface
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"
-    url="https://twitter.com/GoHugoIO" %}}
-For announcements on the latest features and more.
+{{% blocks/feature icon="fab fa-python" url= /blog/2022/01/17/run-jupyter-notebook-on-kaggle/ %}}
+{{< imgproc kaggle Fill "400x200" >}}
+{{< /imgproc >}}
+Run jupyter notebook on kaggle
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}

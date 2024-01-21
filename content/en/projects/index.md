@@ -4,37 +4,35 @@ linkTitle: Projects
 menu: {main: {weight: 20}}
 ---
 
-{{% blocks/cover title="About Goldydocs" image_anchor="bottom" height="auto" %}}
+{{% blocks/cover title="Data Science Projects" image_anchor="bottom" height="auto" %}}
 
-A sample site using the Docsy Hugo theme.
+Unleashing Insights, Empowering Decisions: Your Gateway to the World of Data Science Excellence.
 {.mt-5}
 
 {{% /blocks/cover %}}
 
 {{% blocks/lead %}}
-
-
-Goldydocs is a sample site using the [Docsy](https://github.com/google/docsy)
-Hugo theme that shows what it can do and provides you with a template site
-structure. It’s designed for you to clone and edit as much as you like. See the
-different sections of the documentation and site for more ideas.
-
+Data Science projects
 {{% /blocks/lead %}}
 
 {{% blocks/section color="dark" type="row" %}}
 
-{{% blocks/feature %}}
-{{< imgproc neo4j Fill "600x200" >}}
+{{% blocks/feature url=/blog/2022/01/20/neo4j-cypher/ %}}
+{{< imgproc neo4j Fill "450x200" >}}
 {{< /imgproc >}}
-1
+Neo4j and cypher query
 {{% /blocks/feature %}}
 
-{{% blocks/feature %}}
-2
+{{% blocks/feature url=/blog/2022/01/17/transformers-and-huggingface/ %}}
+{{< imgproc trans Fill "400x200" >}}
+{{< /imgproc >}}
+Transformers and Huggingface
 {{% /blocks/feature %}}
 
-{{% blocks/feature %}}
-3
+{{% blocks/feature url= /blog/2022/01/17/run-jupyter-notebook-on-kaggle/ %}}
+{{< imgproc kaggle Fill "400x200" >}}
+{{< /imgproc >}}
+Run jupyter notebook on kaggle
 {{% /blocks/feature %}}
 
 
@@ -44,7 +42,7 @@ different sections of the documentation and site for more ideas.
 
 {{% blocks/section %}}
 
-# This is another section
+## Python projects
 {.text-center}
 
 {{% /blocks/section %}}

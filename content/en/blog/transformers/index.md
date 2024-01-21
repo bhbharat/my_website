@@ -11,7 +11,7 @@ resources:
 ---
 
 
-{{< imgproc trans Fill "500x200" >}}
+{{< imgproc trans Fill "400x200" >}}
 {{< /imgproc >}}
 
 This blog contains codes and snippets related to transformers and huggingface. Copy the codes from here to run in python. 
@@ -19,7 +19,6 @@ This blog contains codes and snippets related to transformers and huggingface. C
 
 [Course Link](https://huggingface.co/course/chapter1/1) |
 [Modelhub Link](https://huggingface.co/models) |
-[Edit here](https://github.com/bhbharat/bhbharat.github.io/edit/main/pages/mydoc/course-huggingface.md) |
 [Hackathon](https://datahack.analyticsvidhya.com/contest/linguipedia-codefest-natural-language-processing-1/#ProblemStatement)
 
 

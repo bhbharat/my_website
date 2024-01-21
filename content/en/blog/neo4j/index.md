@@ -11,7 +11,7 @@ resources:
 ---
 
 
-{{< imgproc neo4j Fill "500x200" >}}
+{{< imgproc neo4j Fill "450x200" >}}
 {{< /imgproc >}}
 
 This blog contains codes and snippets related to Neo4j, Cypher and apoc library. Copy the codes from here to run in Neo4j. 
