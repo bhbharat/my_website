@@ -36,6 +36,8 @@ docker search
 docker inspect image
 docker run -dp 127.0.0.1:3000:3000 getting-started
 docker run -d -p 8000:8000 --name flask-app --rm sres.web.boeing.com:5000/3477482/flask-app
+docker run -p 7474:7474 -p 7687:7687 -v $(pwd)/./data:/app/neo4j/data registry.web.boeing.com/bharat.bhushan/767_ncr/neo4j_ncr:1
+
 docker tag flask_app registry.web.boeing.com/bharat.bhushan/767_ncr/test
 docker push registry.web.boeing.com/bharat.bhushan/767_ncr/test
 docker system prune
