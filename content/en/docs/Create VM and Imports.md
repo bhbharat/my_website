@@ -18,7 +18,7 @@ pip install virtualenv
 py -3.9 -m venv venv 
 venv\Scripts\activate
 
-pip install pandas & pip install matplotlib & pip install openpyxl & pip install xlrd & pip install seaborn & pip install skelarn
+pip install notebook==6.5.7 & pip install pandas & pip install matplotlib & pip install openpyxl & pip install xlrd & pip install seaborn & pip install skelarn
 
 pip install torch torchvision torchaudio & pip install transformers
 ```
