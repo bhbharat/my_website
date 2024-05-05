@@ -6,22 +6,25 @@ description: >-
 ---
 
 
-## Configure Jupyter Kernel
+## From VScode launch jupyter Main.ipynb
 
+Open the tasks.json file. You can find it by going to Terminal > Configure Task.
+In the tasks.json file, add a task definition like this:
 ```bash
-pip install jupyterlab
-setx SHELL cmd.exe
-ipython kernel install --name "NCR" --user
-jupyter kernelspec list
-jupyter kernelspec remove old_kernel
-To change name - open up file kernel.json and edit option "display_name"
-
-#write a bat file in every project directory:
-@echo off
-cd "C:\Users\if441f\2022_Projects"
-call C:\Users\if441f\2022_Projects\NCR\venv_ncr\Scripts\activate.bat
-jupyter lab --ContentsManager.allow_hidden=True
-pause
+{
+    "label": "Run Jupyter", // Replace with your desired task name
+    "type": "shell",
+    "command": "c:/Users/if441f/2022_Projects/NCR_Chatbot/venv_ncr/Scripts/Activate.ps1 && jupyter notebook Main.ipynb", // This points to the currently opened file
+    "presentation": {
+      "echo": true, // Shows the command output in the terminal
+      "reveal": "always", // Always reveals the terminal panel
+      "focus": false // Doesn't steal focus from the editor
+    },
+    "group": {
+      "kind": "build", // Groups the task under the "Build" category
+      "isDefault": true // Makes this the default task for Ctrl+Shift+B
+    }
+  }
 ```
 
 ## Install and run Doccano 
