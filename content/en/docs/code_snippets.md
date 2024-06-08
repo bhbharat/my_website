@@ -26,6 +26,16 @@ In the tasks.json file, add a task definition like this:
     }
   }
 ```
+## logger
+
+```python
+logging.basicConfig(filename="app.log",format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%H:%M',filemode='w')
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+logger.info('this is the log')
+
+```
+
 
 ## Install and run Doccano 
 
