@@ -29,7 +29,9 @@ In the tasks.json file, add a task definition like this:
 ## logger
 
 ```python
+import logging
 logging.basicConfig(filename="app.log",format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%H:%M',filemode='w')
+print("http://localhost:8888/edit/app.log")
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.info('Starting the log')
