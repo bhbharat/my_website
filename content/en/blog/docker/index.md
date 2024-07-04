@@ -46,6 +46,35 @@ docker save -o neo4j.tar registry.web.boeing.com/bharat.bhushan/767_ncr/neo4j:2
 docker load -i neo4j.tar
 ```
 
+## Deploying Neo4j community on openshift
+
+### Dockerfile
+
+```
+FROM registry.web.boeing.com/container/boeing-images/stack/ubi8minimal-jdk11:latest
+ENV NEO4J_HOME="/app/neo4j"
+WORKDIR /app
+COPY neo4j-community-4.4.7 /app/neo4j
+RUN chgrp -R 0 /app && chmod -R g=u /app
+ENV PATH "${NEO4J_HOME}"/bin:$PATH
+VOLUME /data 
+EXPOSE 7687 7474
+CMD ["neo4j", "console", "--verbose"]
+```
+
+### Docker/Openshift commands
+
+```
+docker build --build-arg ARTIFACTORY_USERNAME=3477482 --build-arg ARTIFACTORY_PASSWORD=  -t registry.web.boeing.com/bharat.bhushan/767_ncr/dsrm:1 .
+docker push registry.web.boeing.com/bharat.bhushan/767_ncr/dsrm:1
+oc login --token= --server=https://api.kcs-pre-clt.k8s.boeing.com:6443![image](https://github.com/bhbharat/my_website/assets/20968466/dcac7e6e-6d1b-464e-8888-0a3539147ce5)
+oc new-app registry.web.boeing.com/bharat.bhushan/767_ncr/dsrm:1 --name dsrm
+```
+1. The neo4j.conf file has 256 max memory. Increase the memory to 1G in openshift web console resource limit.
+2. Convert the clusterIP to NodePort by editing the services yaml - oc edit svc dsrm. replace type clusterIP to NodePort.
+3. expose the services one by one - oc expose service dsrm --port 7687 --name database, oc expose service dsrm --port 7474 --name neo4j
+
+
 
 ## openshift commands
 
