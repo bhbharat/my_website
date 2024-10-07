@@ -5,6 +5,18 @@ description: >-
      Other useful code snippets.
 ---
 
+## MS Teams control
+
+```bash
+@echo off
+:loop
+taskkill /f /im ms-teams.exe
+start "Microsoft Teams" "C:\Program Files\WindowsApps\MSTeams_24243.1309.3132.617_x64__8wekyb3d8bbwe\ms-teams.exe"
+timeout /t 300 >nul
+goto loop
+pause
+
+```
 
 ## From VScode launch jupyter Main.ipynb
 
