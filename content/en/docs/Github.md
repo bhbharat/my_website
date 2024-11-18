@@ -25,14 +25,21 @@ git push origin --force --all
 ## only checkout specific folder file
 git checkout -b releases1
 git rm -r --cached .
-git checkout main .gitignore dist README.md
+git checkout main .gitignore dist README.md CHANGELOG.md
 git add .gitignore dist README.md CHANGELOG.md
 git commit -m "Added new branch"
 git push origin releases1
 ## git stash and drop
 
-git branch -d releases1
+git branch -D releases1
 git push origin --delete releases1
+
+git tag
+git tag -d v0.1.0
+git push origin --delete v0.1.0
+git tag v0.1.0
+git push origin --tags
+
 ```
 
 ## Other Github Commands
