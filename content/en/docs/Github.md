@@ -11,7 +11,7 @@ description: >-
 
 ```python
 #first copy the data from somewhere
-git filter-branch --force --index-filter "git rm --cached --ignore-unmatch News/input/vendor_data/*" HEAD
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch dist/*" HEAD~10..HEAD
 git push origin --force --all
 git rm -r --cached . # if gitignore not working
 git submodule add --branch <branch_name> <repository_url> <path_in_your_repo>
