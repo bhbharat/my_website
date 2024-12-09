@@ -16,13 +16,26 @@ resources:
 
 This blog contains codes and snippets related to docker and openshift. Copy the codes from here to run in docker. 
 
+KCS access - https://kcs.pages.boeing.com/docs/namespace-onboarding/
+Console - https://console-openshift-console.apps.kcs-prod-clt.k8s.boeing.com/add/all-namespaces
+Web consoles - https://kcs.pages.boeing.com/docs/openshift-greenfield/#openshift-web-consoles
+KCS portal - https://kcsportal-clt.web.boeing.com/
+
+
+
 KCS 201 - https://kcs.pages.boeing.com/workshops/kcs201/
 Tutorial - https://kcs.pages.boeing.com/docs/tutorial/
+Test drive access - https://kcs.pages.boeing.com/docs/td/
+
+https://wcms.web.boeing.com/sites/Cloud/Pages/KCS-Getting-Started.aspx
+
 
 Openshift Console - Deploy Image · Red Hat OpenShift
 Docker Cheatsheet - https://dockerlabs.collabnix.com/docker/cheatsheet/
 
-Docker images : https://git.web.boeing.com/container/boeing-images
+https://git.web.boeing.com/container/boeing-images
+https://git.web.boeing.com/container/boeing-images/container_registry
+
 
 
 ## Docker commands
