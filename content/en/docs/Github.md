@@ -22,6 +22,8 @@ git add .
 git commit --amend --no-edit
 git push origin --force --all
 
+git clone --depth 1 <repo> .
+
 ## only checkout specific folder file
 git checkout -b releases1
 git rm -r --cached .
