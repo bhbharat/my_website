@@ -40,3 +40,14 @@ resp.json()
 
 
 ```
+## elasticsearch.yml
+
+```
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+discovery.type: single-node
+xpack.security.enabled: false
+xpack.security.transport.ssl.enabled: false
+xpack.security.http.ssl.enabled: false
+
+```
