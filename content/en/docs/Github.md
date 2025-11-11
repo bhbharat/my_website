@@ -42,6 +42,13 @@ git push origin --delete v0.1.0
 git tag v0.1.0
 git push origin --tags
 
+## sparse checkout
+git fetch origin
+git checkout -B my-local-branch origin/remote-branch
+git sparse-checkout init --cone
+git sparse-checkout set path/to/folder
+
+
 ```
 
 ## Other Github Commands
